@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  &__text_wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__btn {
+    color: blue;
+    background-color: #fff;
+    border: none;
+    margin-left: 1rem;
+    text-decoration: underline;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__status {
+    margin-left: 9rem;
+    margin-top: 1rem;
+    border: 1px solid #cccccc;
+    background-color: #cccccc;
+    padding: 18px;
+  }
+}

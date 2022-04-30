@@ -1,0 +1,30 @@
+.block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+
+  &__title {
+    width: 10rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__inp_wrap {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__warning {
+    color: red;
+    margin-top: 0.5rem;
+  }
+
+  &__text {
+    width: 20rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    color: darkgray;
+  }
+}

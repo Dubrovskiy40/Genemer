@@ -1,0 +1,25 @@
+.changeBtn_wrap {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  color: #fff;
+  background-color: #71C838;
+  padding: 15px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  &__text {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    color: darkgray;
+  }
+}
